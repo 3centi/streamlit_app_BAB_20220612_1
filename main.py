@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-word = random.choice('bcdfghjklmnprstvwyz')+random.choice('aeiou')+random.choice('bcdfgklmnpstvwz')
+word = random.choice('bdfghjklmnprstvwyz')+random.choice('aeiou')+random.choice('bcdfgklmnpstvz')
 
 st.title('BAB')
 st.button('NEXT WORD')
